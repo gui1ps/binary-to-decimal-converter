@@ -1,0 +1,76 @@
+
+body{
+    height: 100vh;
+    margin: 0px;
+    border: 0px;
+    background-image: radial-gradient(circle at 84.64% 20.93%, #bcff44 0, #9fff50 12.5%, #7fff5c 25%, #5afe65 37.5%, #1ef36e 50%, #00e876 62.5%, #00de7d 75%, #00d585 87.5%, #00cd8d 100%);
+    color: rgb(4, 61, 107);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu{
+    height: 50vh;
+    width: 50vw;
+    padding: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #0269491a;
+    border-radius: 15px;
+    border: 0px;
+}
+.titulo{
+    margin-bottom: 15px;
+    font-size: 13pt;
+    font-family: Helvetica, sans-serif;
+}
+.form{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    
+}
+.inputs{
+    font-family: Helvetica, sans-serif;
+    font-weight: 700;
+}
+.inputs>input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:  #02694854;
+    color: rgb(4, 61, 107);
+    font-family:Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    width: 19vw;
+    height: 5vh;
+    border-radius: 50px;
+    border: 0px;
+    padding: 5px;
+}
+.inputs>input::placeholder{
+    color: rgb(4, 61, 107);
+}
+.inputs>label{
+    font-size: larger;
+    font-weight: bold;
+}
+#bnt{
+    border: 0px;
+    background-color:#02694854;
+    font-family:Helvetica, sans-serif;
+    color: rgb(4, 61, 107);
+    border-radius: 15px;
+    height: 5vh;
+    padding: 5px;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+}
